@@ -7,7 +7,7 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 
-    <link rel="icon" type="image/png" sizes="56x56" href="{{ asset('lo.ico') }}">
+    <link rel="icon" type="image/png" sizes="56x56" href="{{ asset('logo.ico') }}">
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>-@yield('title')</title>

@@ -51,7 +51,6 @@ class LoginController extends Controller
         $request->validate([
             $this->username() => 'required|string',
             'password' => 'required|string',
-            'captcha' => 'required|captcha',
         ]);
     }
 
@@ -75,13 +74,11 @@ class LoginController extends Controller
             // Make sure the user is active
             if ($user->active && $this->attemptLogin($request)) {
                 // Send the normal successful login response
-                ActivityLogger::activity("تسجيل دخول بنجاح");
 
                 return $this->sendLoginResponse($request);
             } else {
                 // Increment the failed login attempts and redirect back to the
                 // login form with an error message.
-                ActivityLogger::activity(" فشل تسجيل دخول ");
 
                 $this->incrementLoginAttempts($request);
                 return redirect()

@@ -56,7 +56,7 @@ input {
 a {
     text-decoration: none!important;
     outline: none;
-    color: #45484a
+    color: #e7eecd
 }
 
 a:active,
@@ -64,7 +64,7 @@ a:focus,
 a:hover {
     text-decoration: none!important;
     outline: none;
-    color: #45484a
+    color: #e7eecd
 }
 
 button,
@@ -160,7 +160,7 @@ label {
 }
 
 .fa-hover:hover {
-    background: #45484a;
+    background: #e7eecd;
     color: #ffffff
 }
 
@@ -626,24 +626,24 @@ h4 strong {
 }
 
 .btn-primary {
-    background: #45484a
+    background: #e7eecd
 }
 
 .btn-primary:active,
 .btn-primary:focus,
 .btn-primary:hover {
-    background: #45484a!important
+    background: #e7eecd!important
 }
 
 .btn-primary.btn-bordered {
-    border-color: #45484a;
-    color: #45484a
+    border-color: #e7eecd;
+    color: #e7eecd
 }
 
 .btn-primary.btn-bordered:active,
 .btn-primary.btn-bordered:focus,
 .btn-primary.btn-bordered:hover {
-    border-color: #45484a;
+    border-color: #e7eecd;
     color: #ffffff
 }
 
@@ -833,7 +833,7 @@ h4 strong {
 }
 
 .bg-primary {
-    background-color: #45484a!important
+    background-color: #e7eecd!important
 }
 
 .bg-success {
@@ -978,7 +978,7 @@ h4 strong {
 .table>thead>tr.primary>th,
 .table>thead>tr>td.primary,
 .table>thead>tr>th.primary {
-    background: #45484a
+    background: #e7eecd
 }
 
 .table>tbody>tr.danger>td,
@@ -1019,7 +1019,7 @@ h4 strong {
     width: 260px;
     height: 100%;
     padding-top: 50px;
-    background: #45484a;
+    background: #e7eecd;
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05), 0 1px 1px rgba(0, 0, 0, 0.05);
     -moz-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05), 0 1px 1px rgba(0, 0, 0, 0.05);
     -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05), 0 1px 1px rgba(0, 0, 0, 0.05);
@@ -1074,7 +1074,7 @@ h4 strong {
     z-index: 20;
     right: 0px;
     padding: 0px 20px 0px 70px;
-    background: #45484a;
+    background: #e7eecd;
     color: #ffff;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.14);
     -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.14);
@@ -1214,7 +1214,7 @@ h4 strong {
     white-space: nowrap;
     overflow: hidden;
     color: #ffff;
-    background: #45484a;
+    background: #e7eecd;
     font-weight: 500
 }
 
@@ -1335,7 +1335,7 @@ h4 strong {
 }
 
 .user .control-list a:hover {
-    color: #45484a
+    color: #e7eecd
 }
 
 .user .name {
@@ -1355,7 +1355,7 @@ h4 strong {
 
 @media (min-width:1025px) {
     .user .name a:hover {
-        color: #45484a
+        color: #e7eecd
     }
 }
 
@@ -1411,25 +1411,25 @@ h4 strong {
 
 .navigation .menu a {
     display: block;
-    color: white
+    color: black
 }
 
 @media (min-width:1025px) {
     .navigation .menu a:hover {
-        color: white
+        color: black
     }
     .navigation .menu a:hover i {
-        color: white
+        color: gray
     }
 }
 
 .navigation .menu a.active,
 .navigation .menu a.current {
-    color: #45484a
+    color: #e7eecd
 }
 
 .navigation .menu a i {
-    color: white;
+    color: black;
     transition: all 0.4s ease;
     -moz-transition: all 0.4s ease;
     -o-transition: all 0.4s ease;
@@ -1495,7 +1495,7 @@ h4 strong {
 }
 
 .navigation .menu>li.current .current>a {
-    color: #45484a
+    color: #e7eecd
 }
 
 .navigation .menu>li.current .sub-menu {
@@ -1647,7 +1647,7 @@ h4 strong {
     }
     .menu-active .navigation .menu>li:hover>a {
         width: 260px;
-        background: #45484a;
+        background: #e7eecd;
         color: #ffffff;
         padding-left: 90px
     }
@@ -1703,7 +1703,7 @@ h4 strong {
     cursor: pointer;
     font-size: 16px;
     line-height: 50px;
-    color: white
+    color: black
 }
 
 @media (min-width:1025px) {
@@ -1854,7 +1854,7 @@ h4 strong {
 }
 
 .fixed-navbar .ico-item.toggle-hover .toggle-content .read-more:hover {
-    color: #45484a
+    color: #e7eecd
 }
 
 .fixed-navbar .ico-item.toggle-hover.active .toggle-content {
@@ -1930,7 +1930,7 @@ h4 strong {
 }
 
 .fixed-navbar .sub-ico-item a:hover {
-    color: #45484a
+    color: #e7eecd
 }
 
 @media (max-width:479px) {
@@ -1954,7 +1954,7 @@ h4 strong {
 
 @media (min-width:1025px) {
     .footer a:hover {
-        color: #45484a
+        color: #e7eecd
     }
 }
 
@@ -2086,7 +2086,7 @@ h4 strong {
 
 @media (min-width:1025px) {
     .box-content .dropdown.js__drop_down .sub-menu a:hover {
-        color: #45484a
+        color: #e7eecd
     }
 }
 
@@ -2386,7 +2386,7 @@ h4 strong {
 
 .fc .fc-event,
 .fc .fc-event-dot {
-    background: #45484a;
+    background: #e7eecd;
     transition: none;
     -moz-transition: none;
     -webkit-transition: none
@@ -2562,7 +2562,7 @@ h4 strong {
 }
 
 .dataTables_wrapper .dataTable .group {
-    background-color: #45484a;
+    background-color: #e7eecd;
     color: #ffffff
 }
 
@@ -2586,7 +2586,7 @@ h4 strong {
 
 table.focus-on>tbody>tr.focused.unfocused>td,
 table.focus-on>tbody>tr.focused.unfocused>th {
-    background: #45484a;
+    background: #e7eecd;
     color: #ffffff
 }
 
@@ -2706,7 +2706,7 @@ table.focus-on>tbody>tr.focused.unfocused>th {
 }
 
 .inbox-list .name {
-    color: #45484a;
+    color: #e7eecd;
     margin: 0px;
     transition: all 0.4s ease;
     -moz-transition: all 0.4s ease;
@@ -2723,7 +2723,7 @@ table.focus-on>tbody>tr.focused.unfocused>th {
 
 @media (min-width:1025px) {
     .inbox-list .name:hover {
-        color: #45484a
+        color: #e7eecd
     }
 }
 
@@ -2775,8 +2775,8 @@ table.focus-on>tbody>tr.focused.unfocused>th {
     outline: none;
     font-size: 16px;
     line-height: 50px;
-    color: #ffff;
-    background: #45484a;
+    color: black;
+    background: #e7eecd;
 }
 
 .morris-chart-detail-list {
@@ -2818,7 +2818,7 @@ table.focus-on>tbody>tr.focused.unfocused>th {
 
 .notice-blue {
     color: #ffffff;
-    background: #45484a
+    background: #e7eecd
 }
 
 .notice-purple {
@@ -2905,7 +2905,7 @@ table.focus-on>tbody>tr.focused.unfocused>th {
 
 @media (min-width:1025px) {
     .notice-list .name:hover {
-        color: #45484a
+        color: #e7eecd
     }
 }
 
@@ -3036,7 +3036,7 @@ table.focus-on>tbody>tr.focused.unfocused>th {
 }
 
 .notice-popup .notice-read-more:hover {
-    color: #45484a
+    color: #e7eecd
 }
 
 #message-popup {
@@ -3167,7 +3167,7 @@ table.focus-on>tbody>tr.focused.unfocused>th {
 }
 
 .radio.primary label:after {
-    background: #45484a
+    background: #e7eecd
 }
 
 .radio.success label:after {
@@ -3199,7 +3199,7 @@ table.focus-on>tbody>tr.focused.unfocused>th {
 }
 
 .radio.primary input[type=radio]:checked+label:before {
-    border-color: #45484a
+    border-color: #e7eecd
 }
 
 .radio.success input[type=radio]:checked+label:before {
@@ -3280,7 +3280,7 @@ table.focus-on>tbody>tr.focused.unfocused>th {
 
 @media (min-width:1025px) {
     .searchform .button-search:hover {
-        color: #45484a
+        color: #e7eecd
     }
 }
 
@@ -3390,8 +3390,8 @@ table.focus-on>tbody>tr.focused.unfocused>th {
 }
 
 .switch.primary input[type=checkbox]:checked+label:before {
-    background: #45484a;
-    border-color: #45484a
+    background: #e7eecd;
+    border-color: #e7eecd
 }
 
 .switch.success input[type=checkbox]:checked+label:before {
@@ -3701,12 +3701,12 @@ table.focus-on>tbody>tr.focused.unfocused>th {
 }
 
 .box.box-solid.box-primary {
-    border: 1px solid #45484a
+    border: 1px solid #e7eecd
 }
 
 .box.box-solid.box-primary>.box-header {
     color: #ffffff;
-    background-color: #45484a
+    background-color: #e7eecd
 }
 
 .box.box-solid.box-primary>.box-header .btn,
@@ -3945,7 +3945,7 @@ table.focus-on>tbody>tr.focused.unfocused>th {
 
 .box-body .nav li.active a {
     background: #ffffff;
-    color: #45484a
+    color: #e7eecd
 }
 
 .box-body .nav a {
@@ -3958,7 +3958,7 @@ table.focus-on>tbody>tr.focused.unfocused>th {
 
 .box-body .nav a:hover {
     background: #ffffff;
-    color: #45484a
+    color: #e7eecd
 }
 
 .box-body .nav .fa {
@@ -4044,7 +4044,7 @@ table.focus-on>tbody>tr.focused.unfocused>th {
 }
 
 .mailbox-messages .unread>td:first-of-type {
-    border-left: 5px solid #45484a
+    border-left: 5px solid #e7eecd
 }
 
 .mailbox-messages .unread .mailbox-subject span {
@@ -4292,7 +4292,7 @@ table.focus-on>tbody>tr.focused.unfocused>th {
 }
 
 .frm-single .frm-input .frm-inp:focus {
-    border-color: #45484a;
+    border-color: #e7eecd;
     padding-left: 10px
 }
 
@@ -4344,7 +4344,7 @@ table.focus-on>tbody>tr.focused.unfocused>th {
 
 @media (min-width:1025px) {
     .frm-single .frm-submit:hover {
-        background: #45484a
+        background: #e7eecd
     }
 }
 
@@ -4761,7 +4761,7 @@ table.focus-on>tbody>tr.focused.unfocused>th {
 }
 
 .profile-avatar .btn-inbox {
-    background: #45484a
+    background: #e7eecd
 }
 
 .profile-friends-list li {
@@ -4952,7 +4952,7 @@ table.focus-on>tbody>tr.focused.unfocused>th {
 .pricing-table .col-first .thead {
     border: 1px solid #e9eaeb;
     background: none;
-    color: #45484a;
+    color: #e7eecd;
     text-transform: uppercase;
     font-size: 18px;
     font-weight: 700;
@@ -4966,7 +4966,7 @@ table.focus-on>tbody>tr.focused.unfocused>th {
 .pricing-table .thead {
     height: 110px;
     padding: 13px;
-    background: #45484a;
+    background: #e7eecd;
     color: #fff;
     vertical-align: middle
 }
@@ -4980,7 +4980,7 @@ table.focus-on>tbody>tr.focused.unfocused>th {
 }
 
 .pricing-table .thead.bg-main-2 {
-    background-color: #45484a
+    background-color: #e7eecd
 }
 
 .pricing-table .thead.bg-blue-1 {
@@ -4992,7 +4992,7 @@ table.focus-on>tbody>tr.focused.unfocused>th {
 }
 
 .pricing-table .thead.bg-blue-3 {
-    background-color: #45484a
+    background-color: #e7eecd
 }
 
 .pricing-table .price {
@@ -5061,7 +5061,7 @@ table.focus-on>tbody>tr.focused.unfocused>th {
 }
 
 .pricing-table .td .fa-check {
-    color: #45484a;
+    color: #e7eecd;
     font-size: 24px;
     line-height: 48px
 }
@@ -5102,12 +5102,12 @@ table.focus-on>tbody>tr.focused.unfocused>th {
 }
 
 .pricing-table .col-featured .td .btn-order {
-    background: #45484a
+    background: #e7eecd
 }
 
 @media (min-width:1025px) {
     .pricing-table .td .btn-order:hover {
-        background: #45484a
+        background: #e7eecd
     }
     .pricing-table .col:hover:before {
         opacity: 1
@@ -5348,12 +5348,12 @@ table.focus-on>tbody>tr.focused.unfocused>th {
 
 @media (min-width:1025px) {
     .isotope-filter .filter-controls a:hover {
-        color: #45484a
+        color: #e7eecd
     }
 }
 
 .isotope-filter .filter-controls .js__active {
-    color: #45484a
+    color: #e7eecd
 }
 
 .modal-content {

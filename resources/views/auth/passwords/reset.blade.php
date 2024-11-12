@@ -7,7 +7,7 @@
         <input type="hidden" name="token" value="{{ $token }}">
 
     <div class="inside">
-        <div class="title"><img src="{{asset('logo.svg')}}" alt="" style="max-width: 80% !important;"></div>
+        <div class="title"><img src="{{asset('logo.png')}}" alt="" style="max-width: 80% !important;"></div>
 
         <!-- /.title -->
         <div class="frm-title"> استعادة كلمة المرور</div>

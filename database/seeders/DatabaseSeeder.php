@@ -14,7 +14,6 @@ class DatabaseSeeder extends Seeder
     {
 
         $this->call(CityTableSeeder::class);
-        $this->call(BrancheTableSeeder::class);
         $this->call(User_Type_TableDataSeeder::class);
          $this->call(CreateAdminUserSeeder::class);
             

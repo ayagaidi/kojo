@@ -6,7 +6,7 @@
     @csrf
 
     <div class="inside">
-        <div class="title"><img src="{{asset('logo.svg')}}" alt="" style="max-width: 80% !important;"></div>
+        <div class="title"><img src="{{asset('logo.png')}}" alt="" style="max-width: 80% !important;"></div>
 
         {{-- <div class="title"><strong>{{trans('login.brandname')}}</strong></div> --}}
         <!-- /.title -->
@@ -29,30 +29,7 @@
 
     
     
-    <div class="form-group row ">
-        <div class="col-md-8">
- 
-                <div class="captcha"  align="center" style="padding: 3px" >
-
-                  <span>{!! captcha_img() !!}</span>
-
-                  </div>
-        </div>
-                  <div class="col-md-4">
-
-                  <button type="button" onclick="refreshcaptcha()" style="background: #45484a" class="btn btn-primary btn-block btn-signin"><i class="fa fa-refresh" id="refresh"></i></button>
-
-                  </div>
-    </div>
-      <div class="form-group mg-b-50">
-        <input id="captcha" type="captcha" class="form-control @error('captcha') is-invalid @enderror" placeholder="الرجاء إدخال الرمز" name="captcha" >
-
-        @error('captcha')
-        <span class="invalid-feedback"  style="color: red" role="alert">
-            <strong>{{ $message }}</strong>
-        </span>
-    @enderror
-      </div>
+   
         <!-- /.frm-input -->
         <div class="clearfix margin-bottom-20">
             

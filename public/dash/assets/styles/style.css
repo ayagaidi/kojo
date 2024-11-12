@@ -80,7 +80,7 @@ a {
 a {
     text-decoration: none !important;
     outline: none;
-    color: #45484a;
+    color: #e7eecd;
 }
 
 a:hover,
@@ -88,7 +88,7 @@ a:active,
 a:focus {
     text-decoration: none !important;
     outline: none;
-    color: #45484a;
+    color: #e7eecd;
 }
 
 input,
@@ -190,7 +190,7 @@ label {
 }
 
 .fa-hover:hover {
-    background: #45484a;
+    background: #e7eecd;
     color: #ffffff;
 }
 
@@ -680,24 +680,24 @@ h4 strong {
 }
 
 .btn-primary {
-    background: #45484a;
+    background: #e7eecd;
 }
 
 .btn-primary:hover,
 .btn-primary:active,
 .btn-primary:focus {
-    background: #45484a !important;
+    background: #e7eecd !important;
 }
 
 .btn-primary.btn-bordered {
-    border-color: #45484a;
-    color: #45484a;
+    border-color: #e7eecd;
+    color: #e7eecd;
 }
 
 .btn-primary.btn-bordered:hover,
 .btn-primary.btn-bordered:active,
 .btn-primary.btn-bordered:focus {
-    border-color: #45484a;
+    border-color: #e7eecd;
     color: #ffffff;
 }
 
@@ -890,7 +890,7 @@ h4 strong {
 }
 
 .bg-primary {
-    background-color: #45484a !important;
+    background-color: #e7eecd !important;
 }
 
 .bg-success {
@@ -1038,7 +1038,7 @@ h4 strong {
 .table>thead>tr.primary>th,
 .table>thead>tr>td.primary,
 .table>thead>tr>th.primary {
-    background: #45484a;
+    background: #e7eecd;
 }
 
 .table>tbody>tr.danger>td,
@@ -1104,7 +1104,7 @@ Version 1.0
     width: 260px;
     height: 100%;
     padding-top: 50px;
-    background: #45484a;
+    background: #e7eecd;
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05), 0 1px 1px rgba(0, 0, 0, 0.05);
     -moz-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05), 0 1px 1px rgba(0, 0, 0, 0.05);
     -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05), 0 1px 1px rgba(0, 0, 0, 0.05);
@@ -1167,7 +1167,7 @@ Version 1.0
     z-index: 20;
     right: 0px;
     padding: 0px 20px 0px 70px;
-    background: #45484a;
+    background: #e7eecd;
     color: #ffff;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.14);
     -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.14);
@@ -1315,7 +1315,7 @@ Version 1.0
     white-space: nowrap;
     overflow: hidden;
     color: white;
-    background: #45484a;
+    background: #e7eecd;
     font-weight: 500;
 }
 
@@ -1444,7 +1444,7 @@ Version 1.0
 }
 
 .user .control-list a:hover {
-    color: #45484a;
+    color: #e7eecd;
 }
 
 .user .name {
@@ -1464,7 +1464,7 @@ Version 1.0
 
 @media (min-width: 1025px) {
     .user .name a:hover {
-        color: #45484a;
+        color: #e7eecd;
     }
 }
 
@@ -1533,20 +1533,20 @@ Version 1.0
 
 @media (min-width: 1025px) {
     .navigation .menu a:hover {
-        color: #45484a;
+        color: #e7eecd;
     }
     .navigation .menu a:hover i {
-        color: #45484a;
+        color: #e7eecd;
     }
 }
 
 .navigation .menu a.active,
 .navigation .menu a.current {
-    color: #45484a;
+    color: #e7eecd;
 }
 
 .navigation .menu a i {
-    color: #212121;
+    color: black;
     transition: all 0.4s ease;
     -moz-transition: all 0.4s ease;
     -o-transition: all 0.4s ease;
@@ -1603,7 +1603,7 @@ Version 1.0
 }
 
 .navigation .menu>li.current>a {
-    background: #45484a;
+    background: #e7eecd;
     color: #ffffff;
 }
 
@@ -1612,7 +1612,7 @@ Version 1.0
 }
 
 .navigation .menu>li.current .current>a {
-    color: #45484a;
+    color: #e7eecd;
 }
 
 .navigation .menu>li.current .sub-menu {
@@ -1764,7 +1764,7 @@ Version 1.0
     }
     .menu-active .navigation .menu>li:hover>a {
         width: 260px;
-        background: #45484a;
+        background: #e7eecd;
         color: #ffffff;
         padding-left: 90px;
     }
@@ -1832,7 +1832,7 @@ Version 1.0
 
 @media (min-width: 1025px) {
     .fixed-navbar .ico-item:hover {
-        color: #45484a;
+        color: #e7eecd;
     }
 }
 
@@ -1978,7 +1978,7 @@ Version 1.0
 }
 
 .fixed-navbar .ico-item.toggle-hover .toggle-content .read-more:hover {
-    color: #45484a;
+    color: #e7eecd;
 }
 
 .fixed-navbar .ico-item.toggle-hover.active .toggle-content {
@@ -2054,7 +2054,7 @@ Version 1.0
 }
 
 .fixed-navbar .sub-ico-item a:hover {
-    color: #45484a;
+    color: #e7eecd;
 }
 
 @media (max-width: 479px) {
@@ -2141,7 +2141,7 @@ Version 1.0
 
 @media (min-width: 1025px) {
     .footer a:hover {
-        color: #45484a;
+        color: #e7eecd;
     }
 }
 
@@ -2284,7 +2284,7 @@ Version 1.0
 
 @media (min-width: 1025px) {
     .box-content .dropdown.js__drop_down .sub-menu a:hover {
-        color: #45484a;
+        color: #e7eecd;
     }
 }
 
@@ -2592,7 +2592,7 @@ Version 1.0
 
 .fc .fc-event,
 .fc .fc-event-dot {
-    background: #45484a;
+    background: #e7eecd;
     transition: none;
     -moz-transition: none;
     -webkit-transition: none;
@@ -2792,7 +2792,7 @@ Version 1.0
 }
 
 .dataTables_wrapper .dataTable .group {
-    background-color: #45484a;
+    background-color: #e7eecd;
     color: #ffffff;
 }
 
@@ -2817,7 +2817,7 @@ Version 1.0
 
 table.focus-on>tbody>tr.focused.unfocused>th,
 table.focus-on>tbody>tr.focused.unfocused>td {
-    background: #45484a;
+    background: #e7eecd;
     color: #ffffff;
 }
 
@@ -2961,7 +2961,7 @@ table.focus-on>tbody>tr.focused.unfocused>td {
 }
 
 .inbox-list .name {
-    color: #45484a;
+    color: #e7eecd;
     margin: 0px;
     transition: all 0.4s ease;
     -moz-transition: all 0.4s ease;
@@ -2978,7 +2978,7 @@ table.focus-on>tbody>tr.focused.unfocused>td {
 
 @media (min-width: 1025px) {
     .inbox-list .name:hover {
-        color: #45484a;
+        color: #e7eecd;
     }
 }
 
@@ -3046,7 +3046,7 @@ table.focus-on>tbody>tr.focused.unfocused>td {
     outline: none;
     font-size: 16px;
     line-height: 50px;
-    color: #434343;
+    color: black;
     background: #F5F5F5;
 }
 
@@ -3105,7 +3105,7 @@ table.focus-on>tbody>tr.focused.unfocused>td {
 
 .notice-blue {
     color: #ffffff;
-    background: #45484a;
+    background: #e7eecd;
 }
 
 .notice-purple {
@@ -3195,7 +3195,7 @@ table.focus-on>tbody>tr.focused.unfocused>td {
 
 @media (min-width: 1025px) {
     .notice-list .name:hover {
-        color: #45484a;
+        color: #e7eecd;
     }
 }
 
@@ -3329,7 +3329,7 @@ table.focus-on>tbody>tr.focused.unfocused>td {
 }
 
 .notice-popup .notice-read-more:hover {
-    color: #45484a;
+    color: #e7eecd;
 }
 
 #message-popup {
@@ -3484,7 +3484,7 @@ table.focus-on>tbody>tr.focused.unfocused>td {
 }
 
 .radio.primary label:after {
-    background: #45484a;
+    background: #e7eecd;
 }
 
 .radio.success label:after {
@@ -3516,7 +3516,7 @@ table.focus-on>tbody>tr.focused.unfocused>td {
 }
 
 .radio.primary input[type="radio"]:checked+label:before {
-    border-color: #45484a;
+    border-color: #e7eecd;
 }
 
 .radio.success input[type="radio"]:checked+label:before {
@@ -3605,7 +3605,7 @@ table.focus-on>tbody>tr.focused.unfocused>td {
 
 @media (min-width: 1025px) {
     .searchform .button-search:hover {
-        color: #45484a;
+        color: #e7eecd;
     }
 }
 
@@ -3731,8 +3731,8 @@ table.focus-on>tbody>tr.focused.unfocused>td {
 }
 
 .switch.primary input[type="checkbox"]:checked+label:before {
-    background: #45484a;
-    border-color: #45484a;
+    background: #e7eecd;
+    border-color: #e7eecd;
 }
 
 .switch.success input[type="checkbox"]:checked+label:before {
@@ -4106,12 +4106,12 @@ table.focus-on>tbody>tr.focused.unfocused>td {
 }
 
 .box.box-solid.box-primary {
-    border: 1px solid #45484a;
+    border: 1px solid #e7eecd;
 }
 
 .box.box-solid.box-primary>.box-header {
     color: #ffffff;
-    background-color: #45484a;
+    background-color: #e7eecd;
 }
 
 .box.box-solid.box-primary>.box-header a,
@@ -4350,7 +4350,7 @@ table.focus-on>tbody>tr.focused.unfocused>td {
 
 .box-body .nav li.active a {
     background: #ffffff;
-    color: #45484a;
+    color: #e7eecd;
 }
 
 .box-body .nav a {
@@ -4363,7 +4363,7 @@ table.focus-on>tbody>tr.focused.unfocused>td {
 
 .box-body .nav a:hover {
     background: #ffffff;
-    color: #45484a;
+    color: #e7eecd;
 }
 
 .box-body .nav .fa {
@@ -4449,7 +4449,7 @@ table.focus-on>tbody>tr.focused.unfocused>td {
 }
 
 .mailbox-messages .unread>td:first-of-type {
-    border-left: 5px solid #45484a;
+    border-left: 5px solid #e7eecd;
 }
 
 .mailbox-messages .unread .mailbox-subject span {
@@ -4705,7 +4705,7 @@ table.focus-on>tbody>tr.focused.unfocused>td {
 }
 
 .frm-single .frm-input .frm-inp:focus {
-    border-color: #45484a;
+    border-color: #e7eecd;
     padding-left: 10px;
 }
 
@@ -4757,7 +4757,7 @@ table.focus-on>tbody>tr.focused.unfocused>td {
 
 @media (min-width: 1025px) {
     .frm-single .frm-submit:hover {
-        background: #45484a;
+        background: #e7eecd;
     }
 }
 
@@ -5206,7 +5206,7 @@ table.focus-on>tbody>tr.focused.unfocused>td {
 }
 
 .profile-avatar .btn-inbox {
-    background: #45484a;
+    background: #e7eecd;
 }
 
 .profile-friends-list li {
@@ -5413,7 +5413,7 @@ table.focus-on>tbody>tr.focused.unfocused>td {
 .pricing-table .col-first .thead {
     border: 1px solid #e9eaeb;
     background: none;
-    color: #45484a;
+    color: #e7eecd;
     text-transform: uppercase;
     font-size: 18px;
     font-weight: 700;
@@ -5427,7 +5427,7 @@ table.focus-on>tbody>tr.focused.unfocused>td {
 .pricing-table .thead {
     height: 110px;
     padding: 13px;
-    background: #45484a;
+    background: #e7eecd;
     color: #fff;
     vertical-align: middle;
 }
@@ -5441,7 +5441,7 @@ table.focus-on>tbody>tr.focused.unfocused>td {
 }
 
 .pricing-table .thead.bg-main-2 {
-    background-color: #45484a;
+    background-color: #e7eecd;
 }
 
 .pricing-table .thead.bg-blue-1 {
@@ -5453,7 +5453,7 @@ table.focus-on>tbody>tr.focused.unfocused>td {
 }
 
 .pricing-table .thead.bg-blue-3 {
-    background-color: #45484a;
+    background-color: #e7eecd;
 }
 
 .pricing-table .price {
@@ -5522,7 +5522,7 @@ table.focus-on>tbody>tr.focused.unfocused>td {
 }
 
 .pricing-table .td .fa-check {
-    color: #45484a;
+    color: #e7eecd;
     font-size: 24px;
     line-height: 48px;
 }
@@ -5563,12 +5563,12 @@ table.focus-on>tbody>tr.focused.unfocused>td {
 }
 
 .pricing-table .col-featured .td .btn-order {
-    background: #45484a;
+    background: #e7eecd;
 }
 
 @media (min-width: 1025px) {
     .pricing-table .td .btn-order:hover {
-        background: #45484a;
+        background: #e7eecd;
     }
     .pricing-table .col:hover:before {
         opacity: 1;
@@ -5828,12 +5828,12 @@ table.focus-on>tbody>tr.focused.unfocused>td {
 
 @media (min-width: 1025px) {
     .isotope-filter .filter-controls a:hover {
-        color: #45484a;
+        color: #e7eecd;
     }
 }
 
 .isotope-filter .filter-controls .js__active {
-    color: #45484a;
+    color: #e7eecd;
 }
 
 

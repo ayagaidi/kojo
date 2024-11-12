@@ -7,11 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    {{-- lo.ico --}}
-    <link rel="icon" type="image/png" sizes="56x56" href="{{ asset('lo.ico') }}">
+    {{-- logo.ico --}}
+    <link rel="icon" type="image/png" sizes="56x56" href="{{ asset('logo.ico') }}">
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>-@yield('title')</title>
+    <title>KOJO Cafe-@yield('title')</title>
 
     <link rel="stylesheet" href="{{ asset('dash/assets/styles/style.min.css') }}">
 
@@ -86,7 +86,7 @@
     <div class="main-menu">
         <header class="header">
             <a href="{{ route('/') }}" class="logo">
-                
+                <img src="{{asset('logo.png')}}" alt="" style="max-width: 20% !important;">
             </a>
             <button type="button" class="button-close fa fa-times js__menu_close"></button>
         </header>

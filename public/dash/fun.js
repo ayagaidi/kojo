@@ -33,7 +33,7 @@ function serachcompany() {
                     $('#load').html(
                         '<div class="col-md-12">' +
                         '<div class="box-content">' +
-                        '<h4 class = "box-title" style="color: #45484a;font-size: large;" > البحث ب   اسم الشركة  </h4>' +
+                        '<h4 class = "box-title" style="color: #e7eecd;font-size: large;" > البحث ب   اسم الشركة  </h4>' +
                         '  <div class="table-responsive" data-pattern="priority-columns">' +
                         ' <table id="table" class="table table-bordered table-hover js-basic-example dataTable table-custom " style = "cursor: pointer;" > ' +
                         '<thead>' +
@@ -136,7 +136,7 @@ function serachcompany() {
                     $('#load').html(
                         '<div class="col-md-12">' +
                         '<div class="box-content">' +
-                        '<h4 class = "box-title" style="color: #45484a;font-size: large;" > البحث ب   بالتاريخ   </h4>' +
+                        '<h4 class = "box-title" style="color: #e7eecd;font-size: large;" > البحث ب   بالتاريخ   </h4>' +
                         '  <div class="table-responsive" data-pattern="priority-columns">' +
                         ' <table id="table" class="table table-bordered table-hover js-basic-example dataTable table-custom " style = "cursor: pointer;" > ' +
                         '<thead>' +
@@ -240,7 +240,7 @@ function serachcompany() {
                     $('#load').html(
                         '<div class="col-md-12">' +
                         '<div class="box-content">' +
-                        '<h4 class = "box-title" style="color: #45484a;font-size: large;" > البحث ب   اسم الشركة والتاريخ  </h4>' +
+                        '<h4 class = "box-title" style="color: #e7eecd;font-size: large;" > البحث ب   اسم الشركة والتاريخ  </h4>' +
                         '  <div class="table-responsive" data-pattern="priority-columns">' +
                         ' <table id="table" class="table table-bordered table-hover js-basic-example dataTable table-custom " style = "cursor: pointer;" > ' +
                         '<thead>' +
@@ -358,7 +358,7 @@ function serachbranch() {
                     $('#load').html(
                         '<div class="col-md-12">' +
                         '<div class="box-content">' +
-                        '<h4 class = "box-title" style="color: #45484a;font-size: large;" > البحث ب   اسم فرع  </h4>' +
+                        '<h4 class = "box-title" style="color: #e7eecd;font-size: large;" > البحث ب   اسم فرع  </h4>' +
                         '  <div class="table-responsive" data-pattern="priority-columns">' +
                         ' <table id="table" class="table table-bordered table-hover js-basic-example dataTable table-custom " style = "cursor: pointer;" > ' +
                         '<thead>' +
@@ -461,7 +461,7 @@ function serachbranch() {
                     $('#load').html(
                         '<div class="col-md-12">' +
                         '<div class="box-content">' +
-                        '<h4 class = "box-title" style="color: #45484a;font-size: large;" > البحث ب   التاريخ   </h4>' +
+                        '<h4 class = "box-title" style="color: #e7eecd;font-size: large;" > البحث ب   التاريخ   </h4>' +
                         '  <div class="table-responsive" data-pattern="priority-columns">' +
                         ' <table id="table" class="table table-bordered table-hover js-basic-example dataTable table-custom " style = "cursor: pointer;" > ' +
                         '<thead>' +
@@ -565,7 +565,7 @@ function serachbranch() {
                     $('#load').html(
                         '<div class="col-md-12">' +
                         '<div class="box-content">' +
-                        '<h4 class = "box-title" style="color: #45484a;font-size: large;" > البحث ب   اسم فرع والتاريخ  </h4>' +
+                        '<h4 class = "box-title" style="color: #e7eecd;font-size: large;" > البحث ب   اسم فرع والتاريخ  </h4>' +
                         '  <div class="table-responsive" data-pattern="priority-columns">' +
                         ' <table id="table" class="table table-bordered table-hover js-basic-example dataTable table-custom " style = "cursor: pointer;" > ' +
                         '<thead>' +
@@ -681,7 +681,7 @@ function serachpermitdate() {
                     $('#load').html(
                         '<div class="col-md-12">' +
                         '<div class="box-content">' +
-                        '<h4 class = "box-title" style="color: #45484a;font-size: large;" > البحث ب   اسم فرع  </h4>' +
+                        '<h4 class = "box-title" style="color: #e7eecd;font-size: large;" > البحث ب   اسم فرع  </h4>' +
                         '  <div class="table-responsive" data-pattern="priority-columns">' +
                         ' <table id="table" class="table table-bordered table-hover js-basic-example dataTable table-custom " style = "cursor: pointer;" > ' +
                         '<thead>' +
@@ -784,7 +784,7 @@ function serachpermitdate() {
                     $('#load').html(
                         '<div class="col-md-12">' +
                         '<div class="box-content">' +
-                        '<h4 class = "box-title" style="color: #45484a;font-size: large;" > البحث ب   التاريخ   </h4>' +
+                        '<h4 class = "box-title" style="color: #e7eecd;font-size: large;" > البحث ب   التاريخ   </h4>' +
                         '  <div class="table-responsive" data-pattern="priority-columns">' +
                         ' <table id="table" class="table table-bordered table-hover js-basic-example dataTable table-custom " style = "cursor: pointer;" > ' +
                         '<thead>' +
@@ -888,7 +888,7 @@ function serachpermitdate() {
                     $('#load').html(
                         '<div class="col-md-12">' +
                         '<div class="box-content">' +
-                        '<h4 class = "box-title" style="color: #45484a;font-size: large;" > البحث ب   اسم فرع والتاريخ  </h4>' +
+                        '<h4 class = "box-title" style="color: #e7eecd;font-size: large;" > البحث ب   اسم فرع والتاريخ  </h4>' +
                         '  <div class="table-responsive" data-pattern="priority-columns">' +
                         ' <table id="table" class="table table-bordered table-hover js-basic-example dataTable table-custom " style = "cursor: pointer;" > ' +
                         '<thead>' +
