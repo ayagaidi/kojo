@@ -16,7 +16,13 @@ use Illuminate\Support\Facades\Auth;
 
 Auth::routes(['register' => false]);
 Route::get('refreshcaptcha', [App\Http\Controllers\Auth\LoginController::class, 'refreshcaptcha'])->name('refreshcaptcha');
-Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('/');
+Route::get('/', [App\Http\Controllers\IndexController::class, 'index'])->name('/');
+
+
+
+
+
+Route::get('home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::namespace('Dashbord')->group(function () {
     Route::get('users', [App\Http\Controllers\Dashbord\UserController::class, 'index'])->name('users');
     Route::get('users/create', [App\Http\Controllers\Dashbord\UserController::class, 'create'])->name('users/create');

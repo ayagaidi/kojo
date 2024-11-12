@@ -9,6 +9,7 @@
     <meta name="author" content="">
     {{-- logo.ico --}}
     <link rel="icon" type="image/png" sizes="56x56" href="{{ asset('logo.ico') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Qatar2022 Arabic:wght@200&display=swap" rel="stylesheet">
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -26,7 +27,7 @@
 
 </head>
 
-<body style="font-family:Cairo;">
+<body style="font-family: 'Qatar2022 Arabic', sans-serif;font-size: initial;font-weight: bolder;">
 
     <div id="single-wrapper" style="background-color: #e7eecd;">
        @yield('content')

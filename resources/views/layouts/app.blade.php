@@ -12,6 +12,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>KOJO Cafe-@yield('title')</title>
+    <link href="https://fonts.googleapis.com/css2?family=Qatar2022 Arabic:wght@200&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="{{ asset('dash/assets/styles/style.min.css') }}">
 
@@ -81,11 +82,11 @@
 
 </head>
 
-<body style="font-family:Cairo;">
+<body style="font-family: 'Qatar2022 Arabic', sans-serif;font-size: initial;font-weight: bolder;">
 
     <div class="main-menu">
         <header class="header">
-            <a href="{{ route('/') }}" class="logo">
+            <a href="{{ route('home') }}" class="logo">
                 <img src="{{asset('logo.png')}}" alt="" style="max-width: 20% !important;">
             </a>
             <button type="button" class="button-close fa fa-times js__menu_close"></button>
@@ -95,8 +96,8 @@
 
             <div class="navigation">
                 <ul class="menu js__accordion">
-                    <li>
-                        <a class="waves-effect" href="{{route('/')}}"><i
+                    <li class="{{ Request::is('home*') ? 'current' : '' }}>
+                        <a class="waves-effect" href="{{route('home')}}"><i
                                 class="menu-icon mdi mdi-view-dashboard"></i><span>الرئيسية</span></a>
                     </li>
                     @if (Auth::user()->user_type_id == 1 || Auth::user()->user_type_id == 2)
